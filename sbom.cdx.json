@@ -1,0 +1,82 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:5863c246-5236-52b9-aa27-685a66464888",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T08:49:25Z",
+  "component": {
+   "type": "application",
+   "name": "OPENBIM",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/OPENBIM@83b357604d34",
+   "purl": "pkg:generic/anticloud/OPENBIM@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "@modelcontextprotocol/sdk",
+   "version": "^1.16.0",
+   "purl": "pkg:npm/@modelcontextprotocol/sdk@^1.16.0",
+   "bom-ref": "npm/@modelcontextprotocol/sdk@^1.16.0"
+  },
+  {
+   "type": "library",
+   "name": "@thatopen/fragments",
+   "version": "^3.1.2",
+   "purl": "pkg:npm/@thatopen/fragments@^3.1.2",
+   "bom-ref": "npm/@thatopen/fragments@^3.1.2"
+  },
+  {
+   "type": "library",
+   "name": "@types/node",
+   "version": "^24.1.0",
+   "purl": "pkg:npm/@types/node@^24.1.0",
+   "bom-ref": "npm/@types/node@^24.1.0"
+  },
+  {
+   "type": "library",
+   "name": "web-ifc",
+   "version": "^0.0.69",
+   "purl": "pkg:npm/web-ifc@^0.0.69",
+   "bom-ref": "npm/web-ifc@^0.0.69"
+  },
+  {
+   "type": "library",
+   "name": "zod",
+   "version": "^3.25.67",
+   "purl": "pkg:npm/zod@^3.25.67",
+   "bom-ref": "npm/zod@^3.25.67"
+  }
+ ],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}
