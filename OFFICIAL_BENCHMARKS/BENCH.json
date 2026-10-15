@@ -1,0 +1,252 @@
+{
+  "schema": "anticloud.tier-bench/1",
+  "project": "OPENBIM",
+  "source": {
+    "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\ARCHITECTURAL_DESIGN\\OPENBIM\\UPSTREAM_CLONE",
+    "git": {
+      "head": "",
+      "url": "https://github.com/the-anticloud/OPENMRS_CORE.git",
+      "branch": "master",
+      "committed_at": "2026-09-29T11:06:59+04:00"
+    }
+  },
+  "metrics": {
+    "files_total": 8,
+    "source_files_scanned": 3,
+    "lines_of_code": 224,
+    "languages": {
+      ".ts": 3,
+      "(none)": 2,
+      ".json": 1,
+      ".yaml": 1,
+      ".md": 1
+    }
+  },
+  "licence": {
+    "spdx": "MIT",
+    "class": "A",
+    "source_file": "LICENSE",
+    "redistribution_allowed": true
+  },
+  "dependencies": {
+    "count": 5,
+    "unique": 5,
+    "by_ecosystem": {
+      "npm": 5
+    },
+    "list": [
+      {
+        "ecosystem": "npm",
+        "name": "@modelcontextprotocol/sdk",
+        "version": "^1.16.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@thatopen/fragments",
+        "version": "^3.1.2",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "^24.1.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "web-ifc",
+        "version": "^0.0.69",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "zod",
+        "version": "^3.25.67",
+        "source_file": "package.json",
+        "raw": ""
+      }
+    ]
+  },
+  "owasp_top10": {
+    "total_findings": 0,
+    "files_with_findings": 0,
+    "severity": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "categories": {
+      "A01-BrokenAccessControl": {
+        "count": 0,
+        "findings": []
+      },
+      "A02-CryptographicFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A03-Injection": {
+        "count": 0,
+        "findings": []
+      },
+      "A04-InsecureDesign": {
+        "count": 0,
+        "findings": []
+      },
+      "A05-SecurityMisconfiguration": {
+        "count": 0,
+        "findings": []
+      },
+      "A06-VulnerableComponents": {
+        "count": 0,
+        "findings": []
+      },
+      "A07-AuthFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A08-SoftwareDataIntegrity": {
+        "count": 0,
+        "findings": []
+      },
+      "A09-LoggingMonitoringFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A10-SSRF": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "owasp_llm_top10": {
+    "total_findings": 0,
+    "files_with_findings": 0,
+    "severity": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "categories": {
+      "LLM01-PromptInjection": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM02-SensitiveInfoDisclosure": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM03-SupplyChain": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM04-DataPoisoning": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM05-ImproperOutputHandling": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM06-ExcessiveAgency": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM07-SystemPromptLeak": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM08-VectorEmbeddingWeaknesses": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM09-Misinformation": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM10-UnboundedConsumption": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "serialNumber": "urn:uuid:5863c246-5236-52b9-aa27-685a66464888",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-10-06T07:03:14Z",
+      "component": {
+        "type": "application",
+        "name": "OPENBIM",
+        "version": "83b357604d34",
+        "bom-ref": "pkg:generic/anticloud/OPENBIM@83b357604d34",
+        "purl": "pkg:generic/anticloud/OPENBIM@83b357604d34",
+        "licenses": [
+          {
+            "license": {
+              "id": "MIT"
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "anticloud:source-commit",
+          "value": ""
+        },
+        {
+          "name": "anticloud:source-url",
+          "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+        },
+        {
+          "name": "anticloud:tier",
+          "value": "tier-agent"
+        }
+      ]
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "@modelcontextprotocol/sdk",
+        "version": "^1.16.0",
+        "purl": "pkg:npm/@modelcontextprotocol/sdk@^1.16.0",
+        "bom-ref": "npm/@modelcontextprotocol/sdk@^1.16.0"
+      },
+      {
+        "type": "library",
+        "name": "@thatopen/fragments",
+        "version": "^3.1.2",
+        "purl": "pkg:npm/@thatopen/fragments@^3.1.2",
+        "bom-ref": "npm/@thatopen/fragments@^3.1.2"
+      },
+      {
+        "type": "library",
+        "name": "@types/node",
+        "version": "^24.1.0",
+        "purl": "pkg:npm/@types/node@^24.1.0",
+        "bom-ref": "npm/@types/node@^24.1.0"
+      },
+      {
+        "type": "library",
+        "name": "web-ifc",
+        "version": "^0.0.69",
+        "purl": "pkg:npm/web-ifc@^0.0.69",
+        "bom-ref": "npm/web-ifc@^0.0.69"
+      },
+      {
+        "type": "library",
+        "name": "zod",
+        "version": "^3.25.67",
+        "purl": "pkg:npm/zod@^3.25.67",
+        "bom-ref": "npm/zod@^3.25.67"
+      }
+    ]
+  },
+  "elapsed_seconds": 2.37
+}
